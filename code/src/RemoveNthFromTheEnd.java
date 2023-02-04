@@ -78,5 +78,5 @@ public class RemoveNthFromTheEnd {
             this.next = next;
         }
     }
-
+    
 }
