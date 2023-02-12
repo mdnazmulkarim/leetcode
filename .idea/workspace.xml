@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="feb 1 2022 commit">
+    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="remove nth from the end">
+      <change afterPath="$PROJECT_DIR$/code/src/FindFirstAndLastPosInASortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/MergeKSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/RotateInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/RemoveNthFromTheEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/RemoveNthFromTheEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -41,7 +46,7 @@
       <recent name="$PROJECT_DIR$/code/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthFromTheEnd">
+  <component name="RunManager" selected="Application.MergeKSortedList">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CourseSchedule" />
       <module name="code" />
@@ -49,15 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfFirstOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IndexOfFirstOccurance" />
+    <configuration name="FindFirstAndLastPosInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindFirstAndLastPosInASortedArray" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubStringWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestSubStringWithoutRepeatingCharacter" />
+    <configuration name="MergeKSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeKSortedList" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateString" />
+    <configuration name="RotateInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateInteger" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedList" />
+        <item itemvalue="Application.RotateInteger" />
+        <item itemvalue="Application.FindFirstAndLastPosInASortedArray" />
         <item itemvalue="Application.RemoveNthFromTheEnd" />
         <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.LongestSubStringWithoutRepeatingCharacter" />
-        <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.IndexOfFirstOccurance" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675260385453</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="remove nth from the end">
+      <created>1675531841473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675531841473</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +164,8 @@
     <MESSAGE value="add config files 2" />
     <MESSAGE value="IndexOfFirstOccurance" />
     <MESSAGE value="feb 1 2022 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feb 1 2022 commit" />
+    <MESSAGE value="remove nth from the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove nth from the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,11 +174,6 @@
           <url>file://$PROJECT_DIR$/code/src/CourseSchedule.java</url>
           <line>23</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/code/src/LongestSubStringWithoutRepeatingCharacter.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/code/src/CourseSchedule.java</url>
