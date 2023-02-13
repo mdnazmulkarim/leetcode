@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.notesnazmul</groupId>
-    <artifactId>code.leetcode</artifactId>
+    <artifactId>code.programming</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>org.notesnazmul</name>
     <description>CQL Evaluator Project</description>
-    <url>https://github.com/mdnazmulkarim/leetcode</url>
+    <url>https://github.com/mdnazmulkarim/programming</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,9 +31,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/mdnazmulkarim/leetcode.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mdnazmulkarim/leetcode.git</developerConnection>
-        <url>https://github.com/mdnazmulkarim/leetcode</url>
+        <connection>scm:git:git://github.com/mdnazmulkarim/programming.git</connection>
+        <developerConnection>scm:git:ssh://github.com/mdnazmulkarim/programming.git</developerConnection>
+        <url>https://github.com/mdnazmulkarim/programming</url>
     </scm>
 
     <dependencyManagement>

@@ -1,6 +1,6 @@
 import java.util.*;
 
-//https://leetcode.com/problems/reduce-array-size-to-the-half/description/
+//https://programming.com/problems/reduce-array-size-to-the-half/description/
 
 class ReduceArraySize {
 

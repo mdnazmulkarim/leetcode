@@ -2,7 +2,7 @@ public class IndexOfFirstOccurance {
     public static void main(String[] args) {
         System.out.println(new IndexOfFirstOccurance().strStr("mississippi", "issip"));
        // System.out.println(new IndexOfFirstOccurance().strStr("sadstorysad", "sad"));
-       // System.out.println(new IndexOfFirstOccurance().strStr("leetcode", "leeto"));
+       // System.out.println(new IndexOfFirstOccurance().strStr("programming", "leeto"));
     }
 
     public int strStr(String haystack, String needle) {
