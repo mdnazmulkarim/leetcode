@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="remove nth from the end">
-      <change afterPath="$PROJECT_DIR$/code/src/FindFirstAndLastPosInASortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/MergeKSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/RotateInteger.java" afterDir="false" />
+    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="merge iik sorted list">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/MergeKSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/MergeKSortedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

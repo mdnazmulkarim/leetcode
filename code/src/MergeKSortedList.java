@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class MergeKSortedList {
     public static void main(String[] args) {
@@ -12,9 +11,6 @@ public class MergeKSortedList {
         MergeKSortedList.ListNode node3 = new MergeKSortedList.ListNode(2);
         node3.next = new MergeKSortedList.ListNode(6,new MergeKSortedList.ListNode(8));
 
-
-
-
         ListNode[] listNodes = new ListNode[]{node1, node2, node3};
 
         ListNode node = new MergeKSortedList().mergeKLists(listNodes);
@@ -24,51 +20,76 @@ public class MergeKSortedList {
             node = node.next;
         }
 
+
     }
 
     public ListNode mergeKLists(ListNode[] lists) {
 
-       // System.out.println(lists.length);
-        ListNode listNode = new ListNode();
-        int currentValue = getCurrentValue(lists);
-        if(currentValue == 1000000) {
-            System.out.println(currentValue);
-            return listNode;
+        int MAX_VAL = 1000000;
+        ListNode listNode = new ListNode(MAX_VAL);
+        ListNode retValue = listNode;
+
+        if(lists.length == 0) {
+            return null;
         }
-        System.out.println(currentValue);
-        ListNode node = listNode;
-        List<Integer> list = new ArrayList<>();
-        currentValue = 1000000;
-        int index=0;
+
+        boolean empty = true;
+        for(int m =0; m< lists.length; m++) {
+            if(lists[m] != null) {
+                empty = false;
+            }
+        }
+
+        if(empty) {
+            return null;
+        }
+
+
+        int currentValue = MAX_VAL;
+        int lowestIndex=0;
         boolean completed = false;
-        while(!completed) {
+        int count =0;
+
+        while(!completed ) {
             int k = 0;
             for(int i=0; i< lists.length; i++) {
                 if(lists[i] != null && lists[i].val< currentValue){
-                    index = i;
+                    lowestIndex = i;
                     currentValue =  lists[i].val;
                     k++;
                 }
             }
+            if(currentValue != MAX_VAL) {
+                listNode = add(listNode, currentValue);
+                count++;
+            }
+            if(lists[lowestIndex]!= null && lists[lowestIndex].next != null) {
+                lists[lowestIndex] = lists[lowestIndex].next;
+            } else {
+                lists[lowestIndex] = null;
+            }
+
+            currentValue = MAX_VAL;
+            lowestIndex = 0;
             if(k==0) {
                 completed = true;
             }
-            list.add(currentValue);
-            lists[index] = lists[index].next;
+
         }
 
-        System.out.println(list);
-
-        return listNode;
+        return retValue;
     }
 
-    private int getCurrentValue(ListNode[] lists) {
-        for(int i = 0; i< lists.length; i++) {
-            if(lists[i] != null) {
-                return lists[i].val;
-            }
+    private ListNode add(ListNode node, int value) {
+        if (node == null) {
+            node = new ListNode(value);
+        } else if (node.val == 1000000) {
+            node.val = value;
+        } else {
+            node.next = new ListNode(value);
+            return node.next;
         }
-         return 1000000;
+        return node;
     }
 
 
