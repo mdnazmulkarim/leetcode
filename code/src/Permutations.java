@@ -3,7 +3,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Permutations {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4};
+        int[] arr = {1,2,3};
         new Permutations().permute(arr);
     }
 
@@ -83,7 +83,7 @@ public class Permutations {
         }
 
         void remove(int i) {
-            if(options != null && options.size()>0) {
+            if (options != null && options.size() > 0) {
                 options.remove(i);
             }
         }
