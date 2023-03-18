@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="remove nth from the end">
-      <change afterPath="$PROJECT_DIR$/code/src/FindFirstAndLastPosInASortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/MergeKSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/RotateInteger.java" afterDir="false" />
+    <list default="true" id="7c9343f3-4f64-4953-9a69-22cc22ab05ad" name="Changes" comment="all paths from source to target">
+      <change afterPath="$PROJECT_DIR$/code/src/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +44,9 @@
       <recent name="$PROJECT_DIR$/code/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedList">
-    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CourseSchedule" />
+  <component name="RunManager" selected="Application.PlusOne">
+    <configuration name="AllPathsFromSourceToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllPathsFromSourceToTarget" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthFromTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveNthFromTheEnd" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlusOne" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.AllPathsFromSourceToTarget" />
         <item itemvalue="Application.MergeKSortedList" />
         <item itemvalue="Application.RotateInteger" />
         <item itemvalue="Application.FindFirstAndLastPosInASortedArray" />
-        <item itemvalue="Application.RemoveNthFromTheEnd" />
-        <item itemvalue="Application.CourseSchedule" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675531841473</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all paths from source to target">
+      <created>1677694570744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694570744</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +170,8 @@
     <MESSAGE value="IndexOfFirstOccurance" />
     <MESSAGE value="feb 1 2022 commit" />
     <MESSAGE value="remove nth from the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove nth from the end" />
+    <MESSAGE value="all paths from source to target" />
+    <option name="LAST_COMMIT_MESSAGE" value="all paths from source to target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
