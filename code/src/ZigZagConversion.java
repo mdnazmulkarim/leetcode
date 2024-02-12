@@ -5,9 +5,13 @@ import java.util.concurrent.atomic.AtomicReference;
 public class ZigZagConversion {
     public static void main(String[] args) {
         System.out.println(new ZigZagConversion().convert("PAYPALISHIRING",4));
+       // System.out.println(new ZigZagConversion().convert("AB",1));
     }
 
     public String convert(String s, int numRows) {
+        if(s.length() == 1 || numRows==1 || numRows >= s.length()) {
+            return s;
+        }
         List<List<Character>> list = new ArrayList<>();
         for(int i=0; i<numRows; i++) {
             list.add(new ArrayList<>());
@@ -18,7 +22,6 @@ public class ZigZagConversion {
         int count = 0;
         int i = 0;
         while(count<s.length()) {
-            System.out.println(s.charAt(count));
             if(flag) {
                 list.get(i).add(s.charAt(count));
                 i++;
